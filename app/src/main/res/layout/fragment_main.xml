@@ -1,0 +1,18 @@
+<FrameLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:context="app.com.karas.android.popularmoviei.popularmovie.MainActivityFragment"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+    <GridView
+        android:id="@+id/rpt_movie_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnWidth="200dp"
+        android:numColumns="auto_fit"
+        android:verticalSpacing="10dp"
+        android:horizontalSpacing="10dp"
+        android:stretchMode="columnWidth"
+        android:gravity="center">
+    </GridView>
+</FrameLayout>

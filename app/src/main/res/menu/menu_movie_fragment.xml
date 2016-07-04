@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="app.com.karas.android.popularmoviei.popularmovie.MainActivity">
+    <item
+        android:id="@+id/action_test_http"
+        android:orderInCategory="500"
+        android:title="Refresh"
+        app:showAsAction="never" />
+</menu>
