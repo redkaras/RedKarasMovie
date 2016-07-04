@@ -9,10 +9,11 @@ For build the app you will need to create one account of "https://www.themoviedb
 
 And then modify the file build.gradle in path app.
 
-'''
+
 buildTypes.each {
+
   it.buildConfigField 'String', 'THE_MOVIE_DB_API_KEY', theMoiveDBApiKey
+  
 }
-'''
 
 Replace 'theMoiveDBApiKey' to your API key.
